@@ -552,7 +552,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
-		letter-spacing: -0.0325em;
+		letter-spacing: 1.2px;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1933,6 +1933,7 @@ input, select, textarea {
 			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
+			
 		}
 
 			.main > .content > :last-child {
@@ -1972,6 +1973,7 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 1.0;
 				margin: 0;
+				
 			}
 
 			.main.style1.inactive > .content {
@@ -2003,6 +2005,8 @@ input, select, textarea {
 				position: relative;
 				width: 35%;
 				margin: 0;
+				background-color: #ffffff85;
+				border-radius: 20px;
 			}
 
 			.main.style2.left {
@@ -2051,7 +2055,7 @@ input, select, textarea {
 			}
 
 		.main.dark {
-			color: #ffffff;
+			color: #221f02;
 		}
 
 			.main.dark a {
