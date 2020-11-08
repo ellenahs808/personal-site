@@ -553,6 +553,7 @@ input, select, textarea {
 		font-weight: 900;
 		color: inherit;
 		letter-spacing: 1.2px;
+		font-family: 'Rye', cursive;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -561,15 +562,15 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2.25em;
+		font-size: 1.25em;
 		line-height: 1.25em;
-		letter-spacing: -0.05em;
+		letter-spacing: 2.5px;
 	}
 
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 2em;
 		}
 
 	}
@@ -1044,7 +1045,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		cursor: default;
+		cursor: default; 
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
@@ -1859,8 +1860,9 @@ input, select, textarea {
 				#header div ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 1.5em;
+					font-size: 1.7em;
 					font-family: 'Rye', cursive;
+
 				}
 
 					#header div ul li a {
@@ -1952,8 +1954,10 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 2.25em;
 				line-height: 1em;
+				/* font-family: "Source Sans Pro", "sans-serif"; */
+				font-family: 'Merienda One', cursive;
 			}
 
 			.main.style1 > .content {
@@ -2250,6 +2254,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 	}
+
 
 /* One */
 
