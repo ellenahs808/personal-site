@@ -2253,6 +2253,11 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 		display: flex;
 		flex-direction: column;
+
+	}
+
+	#intro footer {
+		padding-top: 250px;
 	}
 
 
