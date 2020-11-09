@@ -1,3 +1,11 @@
+
+.colored {
+  display: inline-block; 
+  font-size: 70px;
+  padding: 15px 10px;
+}
+
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
@@ -2346,8 +2354,8 @@ input, select, textarea {
 }
 
 .devicons > div {
-	padding: 0 85px;
-	/* display: inline-block; */
-	border-width: 300px;
+	padding: 0 65px;
+	border-width: 200px;
 	border: dotted 1px salmon;
+	
 }
