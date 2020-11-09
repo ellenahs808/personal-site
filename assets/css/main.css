@@ -562,7 +562,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 35px;
 		line-height: 1.25em;
 		letter-spacing: 2.5px;
 	}
@@ -2158,6 +2158,10 @@ input, select, textarea {
 
 		}
 
+/* Contact */
+
+
+
 /* Footer */
 
 	#footer {
@@ -2325,6 +2329,5 @@ input, select, textarea {
 /* work icons */
 .work-content {
 	color: black;
-	font-size: 35px;
 	padding-bottom: 14px;
 }
