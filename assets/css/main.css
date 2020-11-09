@@ -1901,9 +1901,9 @@ input, select, textarea {
 
 		}
 
-	/* body {
-		padding-top: 3em;
-	} */
+	/* body { */
+		/* padding-top: 3em; */
+	/* } */
 
 		@media screen and (max-width: 736px) {
 
@@ -1956,7 +1956,6 @@ input, select, textarea {
 			.main.style1 h2 {
 				font-size: 2.25em;
 				line-height: 1em;
-				/* font-family: "Source Sans Pro", "sans-serif"; */
 				font-family: 'Merienda One', cursive;
 			}
 
@@ -2326,6 +2325,4 @@ input, select, textarea {
 /* work icons */
 .work-content {
 	color: black;
-
-
 }
