@@ -1872,7 +1872,7 @@ input, select, textarea {
 				#header div ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 1.7em;
+					font-size: 1.4em;
 					font-family: 'Rye', cursive;
 
 				}
@@ -2294,6 +2294,11 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+.details-p {
+	letter-spacing: 1px;
+	color: rgb(68, 66, 66);
+}
+
 /* Contact */
 
 	#contact {
@@ -2348,16 +2353,23 @@ input, select, textarea {
 }
 
 .work-details > p {
-	/* font-family: 'Handlee', cursive;
-	font-style: italic; */
-	font-family: 'Charm', cursive;
+	font-family: 'Handlee', cursive;
+	font-style: italic;
+	/* font-family: 'Charm', cursive; */
 	color: rgb(121, 121, 121);
 	letter-spacing: 0.7px;
+	font-size: 19px;
 }
 
 .work-details > a {
 	/* font-family: 'Handlee', cursive; */
 	letter-spacing: 1px;
+	color: rgb(218, 140, 153);
+}
+
+.work-details > a:hover {
+	color: rgb(125, 211, 125);
+	transition: 0.5s;
 }
 
 
