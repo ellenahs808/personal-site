@@ -2036,7 +2036,7 @@ input, select, textarea {
 
 		.main.style3 {
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 3em 0 3em 0;
 		}
 
 			.main.style3 .content > header {
@@ -2325,4 +2325,6 @@ input, select, textarea {
 /* work icons */
 .work-content {
 	color: black;
+	font-size: 35px;
+	padding-bottom: 14px;
 }

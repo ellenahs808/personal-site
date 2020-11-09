@@ -200,7 +200,7 @@
 					// Update scrolly links.
 						$('a[href^="#"]').scrolly({
 							speed: 1500,
-							// offset: $header.outerHeight() - 1
+							// offset: $header.outerHeight() - 1  => gives padding on top when scrolling from one section to another
 						});
 
 					// Re-enable animations/transitions.
