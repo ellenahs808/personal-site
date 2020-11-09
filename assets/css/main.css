@@ -1420,6 +1420,7 @@ input, select, textarea {
 /* Gallery */
 
 	.gallery {
+		padding-top: 50px;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2329,5 +2330,24 @@ input, select, textarea {
 /* work icons */
 .work-content {
 	color: black;
-	padding-bottom: 14px;
+
+}
+
+
+
+/* devicons */
+
+.devicons {
+	display: flex;
+	flex-direction: row;
+	overflow: auto;
+	white-space: nowrap;
+
+}
+
+.devicons > div {
+	padding: 0 85px;
+	/* display: inline-block; */
+	border-width: 300px;
+	border: dotted 1px salmon;
 }
