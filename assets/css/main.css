@@ -2346,11 +2346,22 @@ input, select, textarea {
 /* Work */
 
 .work-details {
-	padding: 30px 20px;
+	padding: 30px 35px;
 	border: solid 1px rgb(185, 185, 185);
 	height: 280px;
 
 }
+/* .from-right > div {
+	padding: 30px 25px;
+	border: solid 1px rgb(185, 185, 185);
+	height: 280px;
+}
+
+.from-left > div {
+	padding: 30px 25px;
+	border: solid 1px rgb(185, 185, 185);
+	height: 280px;
+} */
 
 .work-details > p {
 	font-family: 'Handlee', cursive;
@@ -2365,10 +2376,12 @@ input, select, textarea {
 	/* font-family: 'Handlee', cursive; */
 	letter-spacing: 1px;
 	color: rgb(218, 140, 153);
+	border: solid 1px rgba(0, 0, 0, 0.116);
+	padding: 1px 4px;
 }
 
 .work-details > a:hover {
-	color: rgb(125, 211, 125);
+	color: rgb(109, 189, 109);
 	transition: 0.5s;
 }
 
