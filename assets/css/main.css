@@ -1197,6 +1197,9 @@ input, select, textarea {
 			display: block;
 			margin: 1em 0 0 0;
 			padding: 0 0 0.5em 0;
+			font-family: 'Handlee', cursive;
+			letter-spacing: 0.7px;
+			font-size: 21px;
 		}
 
 	footer {
@@ -1963,9 +1966,9 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 2.25em;
+				font-size: 2.85em;
 				line-height: 1em;
-				font-family: 'Merienda One', cursive;
+				font-family: 'Handlee', cursive;
 			}
 
 			.main.style1 > .content {
@@ -2335,12 +2338,27 @@ input, select, textarea {
 
 
 
-/* work icons */
-.work-content {
-	color: black;
+/* Work */
+
+.work-details {
+	padding: 30px 20px;
+	border: solid 1px rgb(185, 185, 185);
+	height: 280px;
 
 }
 
+.work-details > p {
+	/* font-family: 'Handlee', cursive;
+	font-style: italic; */
+	font-family: 'Charm', cursive;
+	color: rgb(121, 121, 121);
+	letter-spacing: 0.7px;
+}
+
+.work-details > a {
+	/* font-family: 'Handlee', cursive; */
+	letter-spacing: 1px;
+}
 
 
 /* devicons */
@@ -2357,5 +2375,5 @@ input, select, textarea {
 	padding: 0 65px;
 	border-width: 200px;
 	border: dotted 1px salmon;
-	
+	letter-spacing: 1.7px;
 }
