@@ -2258,6 +2258,16 @@ input, select, textarea {
 
 		}
 
+.contact-info {
+	font: inherit;
+	letter-spacing: 1.4px;
+}
+
+.contact-detail {
+	font-family: 'Handlee', cursive;
+	letter-spacing: 1px;
+}
+
 /* Intro */
 
 	#intro {
@@ -2351,17 +2361,7 @@ input, select, textarea {
 	height: 280px;
 
 }
-/* .from-right > div {
-	padding: 30px 25px;
-	border: solid 1px rgb(185, 185, 185);
-	height: 280px;
-}
 
-.from-left > div {
-	padding: 30px 25px;
-	border: solid 1px rgb(185, 185, 185);
-	height: 280px;
-} */
 
 .work-details > p {
 	font-family: 'Handlee', cursive;
