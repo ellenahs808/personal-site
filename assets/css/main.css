@@ -1887,6 +1887,11 @@ input, select, textarea {
 						outline: 0;
 					}
 
+					#header div ul li a:hover {
+						color: rgb(93, 92, 92);
+						transition: 0.3s;
+					}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -2402,3 +2407,8 @@ input, select, textarea {
 	border: dotted 1px salmon;
 	letter-spacing: 1.7px;
 }
+
+
+
+
+
