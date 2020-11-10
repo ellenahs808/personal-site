@@ -2034,7 +2034,7 @@ input, select, textarea {
 				position: relative;
 				width: 35%;
 				margin: 0;
-				background-color: #ffffff85;
+				background-color: #ffffffb7;
 				border-radius: 20px;
 			}
 
@@ -2281,6 +2281,7 @@ input, select, textarea {
 .contact-info {
 	font: inherit;
 	letter-spacing: 1.4px;
+	color: rgb(110, 110, 110);
 }
 
 .contact-detail {
@@ -2326,7 +2327,7 @@ input, select, textarea {
 
 .details-p {
 	letter-spacing: 1px;
-	color: rgb(68, 66, 66);
+	color: rgba(0, 0, 0, 0.63);
 }
 
 /* Contact */
@@ -2437,5 +2438,6 @@ input, select, textarea {
 }
 
 
-
-
+.main-header {
+	color: rgba(0, 0, 0, 0.678);
+}
