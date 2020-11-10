@@ -2376,31 +2376,41 @@ input, select, textarea {
 /* Work */
 
 .work-details {
-	padding: 30px 35px;
+	padding: 35px 35px;
 	border: solid 1px rgb(185, 185, 185);
 	height: 280px;
-
+	background-image: url('../../images/white-background.jpg');
 }
 
 
 .work-details > p {
 	font-family: 'Handlee', cursive;
 	font-style: italic;
-	color: rgb(121, 121, 121);
+	color: rgb(114, 113, 113);
 	letter-spacing: 0.7px;
 	font-size: 17px;
 }
+
+.work-details > hr {
+	height: 1px;
+	background-color: rgba(12, 12, 12, 0.287);
+	border: none;
+}
+
 
 .work-details > a {
 	letter-spacing: 1px;
 	color: rgb(218, 140, 153);
 	border: solid 1px rgba(0, 0, 0, 0.116);
 	padding: 1px 4px;
+}
 
+.work-details > a:link {
+	text-decoration: none;
 }
 
 .work-details > a:hover {
-	color: rgb(109, 189, 109);
+	color: rgb(128, 128, 128);
 	transition: 0.5s;
 }
 
@@ -2422,6 +2432,9 @@ input, select, textarea {
 	letter-spacing: 1.7px;
 }
 
+.devicons div p {
+	color: rgb(110, 110, 110);
+}
 
 
 
