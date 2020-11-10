@@ -77,37 +77,37 @@
 		}
 
 	// Gallery.
-		$window.on('load', function() {
+		// $window.on('load', function() {
 
-			var $gallery = $('.gallery');
+		// 	var $gallery = $('.gallery');
 
-			$gallery.poptrox({
-				baseZIndex: 10001,
-				useBodyOverflow: false,
-				usePopupEasyClose: false,
-				overlayColor: '#1f2328',
-				overlayOpacity: 0.65,
-				usePopupDefaultStyling: false,
-				usePopupCaption: true,
-				popupLoaderText: '',
-				windowMargin: 50,
-				usePopupNav: true
-			});
+		// 	$gallery.poptrox({
+		// 		baseZIndex: 10001,
+		// 		useBodyOverflow: false,
+		// 		usePopupEasyClose: false,
+		// 		overlayColor: '#1f2328',
+		// 		overlayOpacity: 0.65,
+		// 		usePopupDefaultStyling: false,
+		// 		usePopupCaption: true,
+		// 		popupLoaderText: '',
+		// 		windowMargin: 50,
+		// 		usePopupNav: true
+		// 	});
 
-			// Hack: Adjust margins when 'small' activates.
-				breakpoints.on('>small', function() {
-					$gallery.each(function() {
-						$(this)[0]._poptrox.windowMargin = 50;
-					});
-				});
+		// 	// Hack: Adjust margins when 'small' activates.
+		// 		breakpoints.on('>small', function() {
+		// 			$gallery.each(function() {
+		// 				$(this)[0]._poptrox.windowMargin = 50;
+		// 			});
+		// 		});
 
-				breakpoints.on('<=small', function() {
-					$gallery.each(function() {
-						$(this)[0]._poptrox.windowMargin = 5;
-					});
-				});
+		// 		breakpoints.on('<=small', function() {
+		// 			$gallery.each(function() {
+		// 				$(this)[0]._poptrox.windowMargin = 5;
+		// 			});
+		// 		});
 
-		});
+		// });
 
 	// Section transitions.
 		if (browser.canUse('transition')) {

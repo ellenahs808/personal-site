@@ -1185,6 +1185,7 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
+			font-size: 33px;
 		}
 
 /* Sections/Article */
@@ -1457,14 +1458,15 @@ input, select, textarea {
 			width: 50%;
 			position: relative;
 			opacity: 1.0;
+			z-index: 1;
 		}
 
-			.gallery article .image {
+			/* .gallery article .image {
 				margin: 0;
 				display: block;
-			}
+			} */
 
-			.gallery article:nth-last-child(1n) {
+			/* .gallery article:nth-last-child(1n) {
 				-moz-transition-delay: 0.05s;
 				-webkit-transition-delay: 0.05s;
 				-ms-transition-delay: 0.05s;
@@ -1784,11 +1786,11 @@ input, select, textarea {
 				-webkit-transition-delay: 1.15s;
 				-ms-transition-delay: 1.15s;
 				transition-delay: 1.15s;
-			}
+			} */
 
 		.gallery.inactive article {
 			opacity: 0;
-		}
+		} 
 
 			.gallery.inactive article.from-left {
 				-moz-transform: translateX(-14em);
@@ -1887,10 +1889,6 @@ input, select, textarea {
 						outline: 0;
 					}
 
-					/* #header div ul li a:hover {
-						color: rgb(93, 92, 92);
-						transition: 0.3s;
-					} */
 
 					/* effect-shine */
 					#header div ul li a:hover {
@@ -2388,18 +2386,17 @@ input, select, textarea {
 .work-details > p {
 	font-family: 'Handlee', cursive;
 	font-style: italic;
-	/* font-family: 'Charm', cursive; */
 	color: rgb(121, 121, 121);
 	letter-spacing: 0.7px;
-	font-size: 19px;
+	font-size: 17px;
 }
 
 .work-details > a {
-	/* font-family: 'Handlee', cursive; */
 	letter-spacing: 1px;
 	color: rgb(218, 140, 153);
 	border: solid 1px rgba(0, 0, 0, 0.116);
 	padding: 1px 4px;
+
 }
 
 .work-details > a:hover {
